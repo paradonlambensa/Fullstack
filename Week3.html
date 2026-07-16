@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Auth Form</h4>
+    <form action="" method="post">
+        <label for="username">User name:</label>
+        <input type="username" name="username" placeholder="ID" required>
+        <br><br>
+        <Label for="password">Password:</label>
+        <input type="password" name="password" placeholder="PASS" required>
+        <br><br>
+        <input type="submit" value="Login">
+        <input type="reset" value="Cancel">
+    </form>
+    <h4>Type EX.</h4>
+    <form action="" method="post">
+        <label for="username">User name:</label>
+        <input type="username" name="username" placeholder="ID" required>
+        <br><br>
+        <Label for="password">Password:</label>
+        <input type="password" name="password" placeholder="PASS" required>
+        <br><br>
+        <fieldset>
+            <legend>Type</legend>
+            <label for="admin">Admin</label>
+            <input type="radio" id="admin" name="type" value="admin">
+            <label for="user">User</label>
+            <input type="radio" id="user" name="type" value="user">
+        </fieldset>
+        <br><br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="number" name="age" placeholder="Age">
+        <input type="date" name="dob" placeholder="Date of Birth">
+        <br><br>
+        <input type="url" name="website" placeholder="Your Website" required><br><br>
+        <input type="number" name="TEL" placeholder="Phone Number" ><br><br>
+        <input type="color" name="favcolor" placeholder="Favorite Color"><br><br>
+        <input type="file" name="fileupload" required><br><br>
+        <textarea name="message" placeholder="Message" cols="100" rows="10"></textarea><br><br>
+        <select name="country" aria-placeholder="Country">
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+            <option value="thailand">Thailand</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Login">
+        <input type="reset" value="Cancel">
+        <input type="checkbox" name="remember" value="remember"> Remember me  
+    </form>
+
+</body>
+</html>
